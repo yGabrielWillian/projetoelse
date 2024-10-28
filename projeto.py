@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from transformers import pipeline
 
 # Carregue os dados
-df = pd.read_csv("C:\\Users\\Administrator\\Downloads\\projetoportfolio\\portfolio\\precos.csv", sep=";")
+df = pd.read_csv("precos.csv", sep=";")
 
 
 # Modelos para diferentes categorias de viagens
